@@ -1,0 +1,15 @@
+import random
+temp=random.randint(1,100)
+Hum=random.randint(1,100)
+temperature=int(input(“Enter the temperature in celsius: “))
+humidity=int(input(“Enter the humidity of the air: “))
+if temperature>30
+	if humidity>90
+		print(“Its hot and humid”)
+		print(“Alarm on”)
+	else
+		print(“Its hot but not humid”)
+		print(“Alarm off”)
+else
+	print(“Its not hot”)
+	print(“Alarm not detected”)
